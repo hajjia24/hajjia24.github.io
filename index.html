@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <h1 data-editable="source" data-path="/src/pages/index.astro" data-key="title">Hello!</h1>
+<h1 data-editable="text" data-prop="title">{title}</h1>
+<p>By: <editable-text data-prop="author">{author}</editable-text></p>
+<editable-text data-prop="@content">
+	<!-- render page content (e.g. markdown) -->
+</editable-text>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
